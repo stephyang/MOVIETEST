@@ -13,6 +13,10 @@
 		75FD77781CA8F65A007EEB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FD77761CA8F65A007EEB15 /* Main.storyboard */; };
 		75FD777A1CA8F65A007EEB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FD77791CA8F65A007EEB15 /* Assets.xcassets */; };
 		75FD777D1CA8F65A007EEB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FD777B1CA8F65A007EEB15 /* LaunchScreen.storyboard */; };
+		75FD77851CA8F8F8007EEB15 /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD77841CA8F8F8007EEB15 /* movie.swift */; };
+		75FD77871CA8F9B6007EEB15 /* Allmovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD77861CA8F9B6007EEB15 /* Allmovie.swift */; };
+		75FD77891CA90145007EEB15 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD77881CA90145007EEB15 /* MovieTableViewCell.swift */; };
+		75FD778D1CA91789007EEB15 /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FD778C1CA91789007EEB15 /* FirstDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		75FD77791CA8F65A007EEB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75FD777C1CA8F65A007EEB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75FD777E1CA8F65A007EEB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FD77841CA8F8F8007EEB15 /* movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
+		75FD77861CA8F9B6007EEB15 /* Allmovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Allmovie.swift; sourceTree = "<group>"; };
+		75FD77881CA90145007EEB15 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		75FD778C1CA91789007EEB15 /* FirstDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		75FD776F1CA8F65A007EEB15 /* MOVIETEST */ = {
 			isa = PBXGroup;
 			children = (
-				75FD77701CA8F65A007EEB15 /* AppDelegate.swift */,
 				75FD77721CA8F65A007EEB15 /* FirstViewController.swift */,
+				75FD778C1CA91789007EEB15 /* FirstDetailViewController.swift */,
+				75FD77881CA90145007EEB15 /* MovieTableViewCell.swift */,
+				75FD77841CA8F8F8007EEB15 /* movie.swift */,
+				75FD77861CA8F9B6007EEB15 /* Allmovie.swift */,
 				75FD77741CA8F65A007EEB15 /* SecondViewController.swift */,
 				75FD77761CA8F65A007EEB15 /* Main.storyboard */,
 				75FD77791CA8F65A007EEB15 /* Assets.xcassets */,
 				75FD777B1CA8F65A007EEB15 /* LaunchScreen.storyboard */,
 				75FD777E1CA8F65A007EEB15 /* Info.plist */,
+				75FD77701CA8F65A007EEB15 /* AppDelegate.swift */,
 			);
 			path = MOVIETEST;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FD77751CA8F65A007EEB15 /* SecondViewController.swift in Sources */,
+				75FD77871CA8F9B6007EEB15 /* Allmovie.swift in Sources */,
+				75FD77891CA90145007EEB15 /* MovieTableViewCell.swift in Sources */,
 				75FD77711CA8F65A007EEB15 /* AppDelegate.swift in Sources */,
+				75FD77851CA8F8F8007EEB15 /* movie.swift in Sources */,
+				75FD778D1CA91789007EEB15 /* FirstDetailViewController.swift in Sources */,
 				75FD77731CA8F65A007EEB15 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +304,7 @@
 				75FD77831CA8F65A007EEB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

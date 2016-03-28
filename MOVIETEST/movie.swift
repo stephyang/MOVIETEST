@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class Movie {
+    var movieImage: String?
+    var movieName: String?
+    var movieDate: String?
+    var movieDetail: String?
+    
+}

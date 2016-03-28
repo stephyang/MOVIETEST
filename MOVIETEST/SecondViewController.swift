@@ -8,8 +8,20 @@
 
 import UIKit
 
+protocol DetailDelegate {
+    func nameChanged(new_name:String)
+}
+
+
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var signTextField: UITextField!
+    
+    @IBOutlet weak var printsignLabel: UILabel!
+    
+  
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +32,8 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func savesignBtn(sender: AnyObject) {
+    }
 
 }
 
