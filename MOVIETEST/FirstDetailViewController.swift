@@ -10,8 +10,10 @@ import UIKit
 
 class FirstDetailViewController: UIViewController {
     @IBOutlet weak var movieImage: UIImageView!
-    @IBOutlet weak var movieDetail: UITextView!
+    @IBOutlet weak var movieDetailLabel: UILabel!
 
+    var i:Int?
+    
     var movieIndex: Int = 0
     var movies: Allmovie = Allmovie()
     
@@ -22,7 +24,7 @@ class FirstDetailViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         self.movieImage.image = UIImage(named: movies.arrayMovies[movieIndex].movieImage!)
-        self.movieDetail.text = movies.arrayMovies[movieIndex].movieDetail
+        self.movieDetailLabel.text = movies.arrayMovies[movieIndex].movieDetail
     }
     
 

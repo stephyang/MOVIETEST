@@ -49,11 +49,11 @@ class FirstViewController: UIViewController, UITableViewDataSource {
 
      }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showFirstDetail" {
-                let indexPath = self.tableView.indexPathForSelectedRow
-                    let destVC = segue.destinationViewController as! FirstDetailViewController
-                    destVC.movieIndex = (indexPath?.row)!
-        
-        }
-     }
+//        if segue.identifier == "showFirstDetail" {
+            let indexPath = self.tableView.indexPathForSelectedRow
+            let destVC = segue.destinationViewController as! FirstDetailViewController
+            destVC.movieIndex = (indexPath?.row)!
+            
+//        }
+    }
 }
