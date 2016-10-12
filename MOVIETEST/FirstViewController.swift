@@ -50,6 +50,7 @@ class FirstViewController: UIViewController, UITableViewDataSource {
      }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 //        if segue.identifier == "showFirstDetail" {
+//         將內容存入下頁controller的property
             let indexPath = self.tableView.indexPathForSelectedRow
             let destVC = segue.destinationViewController as! FirstDetailViewController
             destVC.movieIndex = (indexPath?.row)!
